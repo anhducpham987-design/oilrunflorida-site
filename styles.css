@@ -259,7 +259,11 @@ body.no-sticky{padding-bottom:0}
 .page-copy ul{padding-left:1.2em;margin:0 0 1.2em}
 .page-copy li{margin-bottom:.45em}
 .towns a{color:inherit}
-.card h3 a{color:inherit;text-decoration-color:var(--orange-dk)}
+.card .card-more{margin-top:14px}
+.card-more a{display:inline-block;padding:6px 0;min-height:24px;font-weight:700;color:var(--orange-dk);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:2px}
+.card-more a:hover{color:#111;text-decoration-color:#111}
+.area-links{margin:16px 0 0;font-weight:600;line-height:2}
+.area-links a{display:inline-block;padding:4px 0;color:var(--orange-dk);text-decoration-thickness:2px}
 .footer-links{margin-top:12px;line-height:1.9}
 .footer-links strong{color:var(--orange)}
 
