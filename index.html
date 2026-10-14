@@ -469,9 +469,10 @@
         <p class="muted small">Email: <a href="mailto:oilrunflorida@gmail.com">oilrunflorida@gmail.com</a></p>
       </div>
       <!--
-        HOW THIS FORM WORKS: assets/request.js opens the visitor's texting app (sms:+18506377024) with all
-        fields filled in; the visitor presses Send. If JavaScript is off, the form falls back to the
-        mailto: action below. For fully automatic delivery (no texting app needed), see README:
+        HOW THIS FORM WORKS: assets/request.js fills in all fields and, on phones/tablets, opens the
+        visitor's texting app (sms:+18506377024); on desktop computers it opens the visitor's email app
+        (mailto:oilrunflorida@gmail.com). The visitor presses Send. If JavaScript is off, the form falls
+        back to the mailto: action below. For fully automatic delivery (no texting/email app needed), see README:
         Formspree (or similar) + Twilio/SMS forwarding.
       -->
       <form class="form" id="request-form" aria-labelledby="quote-title" action="mailto:oilrunflorida@gmail.com?subject=Service%20request%20-%20oilrunflorida.com" method="post" enctype="text/plain">
@@ -501,10 +502,10 @@
         <div class="field"><label for="f-avail">Preferred days / general availability <span class="muted small">(optional)</span></label><input id="f-avail" name="Availability" aria-describedby="h-avail" placeholder="e.g. weekdays after 3, or Saturday"><p class="hint" id="h-avail">Just a preference. We'll call or text you to confirm the actual time.</p></div>
         <div class="field"><label for="f-notes">Notes</label><textarea id="f-notes" name="Notes" rows="4" placeholder="What's going on? Any noises, warning lights, preferred time..."></textarea></div>
         <p class="small"><span class="req" aria-hidden="true">*</span> Required field</p>
-        <button class="btn btn-call btn-lg btn-block" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-sms"/></svg> Text my request to Oilrun</button>
+        <button class="btn btn-call btn-lg btn-block" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-sms"/></svg> Send request</button>
         <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-        <p class="muted small">This is a request, not a confirmed appointment. We'll call or text you to confirm a time. The button opens your phone's texting app with your request filled in, addressed to (850) 637-7024. Just press Send. By texting us, you agree we can reply by call or text about your request. Message and data rates may apply.</p>
-        <p class="small">On a computer without texting? <a href="mailto:oilrunflorida@gmail.com?subject=Service%20request%20-%20oilrunflorida.com">Or email us at oilrunflorida@gmail.com</a>, or call <a href="tel:+18504491738">(850) 449-1738</a>.</p>
+        <p class="muted small">This is a request, not a confirmed appointment. We'll call or text you to confirm a time. On a phone or tablet, the button opens your texting app with your request filled in, addressed to (850) 637-7024. On a computer, it opens your email app with the same details, addressed to oilrunflorida@gmail.com. Just press Send. By texting us, you agree we can reply by call or text about your request. Message and data rates may apply.</p>
+        <p class="small">Nothing opened? <a href="mailto:oilrunflorida@gmail.com?subject=Service%20request%20-%20oilrunflorida.com">Email us at oilrunflorida@gmail.com</a>, <a href="sms:+18506377024">text (850) 637-7024</a>, or call <a href="tel:+18504491738">(850) 449-1738</a>.</p>
       </form>
     </div>
   </section>
