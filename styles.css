@@ -267,4 +267,11 @@ body.no-sticky{padding-bottom:0}
 .footer-links{margin-top:12px;line-height:1.9}
 .footer-links strong{color:var(--orange)}
 
+.nowrap{white-space:nowrap}
+.warranty-summary{font-size:1.1rem;margin-bottom:12px}
+.warranty-details{border:1px solid var(--line);border-radius:10px;background:#fff;padding:0 16px;margin-bottom:20px}
+.warranty-details summary{padding-right:40px}
+.warranty-details summary::after{right:8px}
+.warranty-details .warranty{margin-top:8px}
+
 @media print{.site-header,.sticky-bar,.cta-band{display:none}body{padding:0}}
