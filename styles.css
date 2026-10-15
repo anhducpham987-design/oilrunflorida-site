@@ -89,7 +89,8 @@ a:hover{text-decoration-thickness:2px}
 /* Hero */
 .hero{background:radial-gradient(1000px 500px at 85% 0%,#2a2f38 0%,var(--ink) 60%);color:#fff;padding:48px 0 56px}
 .hero-inner{display:grid;gap:32px;align-items:center}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.92rem;color:#e6e9ee;background:var(--ink-2);border:1px solid var(--ink-3);padding:6px 12px;border-radius:999px}
+.eyebrow{display:inline-flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-weight:700;font-size:.92rem;color:#e6e9ee;background:var(--ink-2);border:1px solid var(--ink-3);padding:6px 12px;border-radius:999px}
+.eyebrow-cities{white-space:nowrap}
 .dot{width:9px;height:9px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 3px rgba(61,220,132,.25)}
 .accent{color:var(--orange)}
 .lead{font-size:1.15rem;color:#dfe3e9;max-width:40em}
