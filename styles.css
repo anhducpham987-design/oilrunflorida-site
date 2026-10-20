@@ -279,9 +279,8 @@ body.no-sticky{padding-bottom:0}
 .warranty-details summary::after{right:8px}
 .warranty-details .warranty{margin-top:8px}
 
-/* Work cards with a customer quote (Pace page) */
-.work-quote{margin:10px 0 0;font-size:.95rem}
-.work-quote p{margin:0}
-.work-by{margin:8px 0 0;font-size:.9rem;color:var(--muted)}
+/* Pace work grid: cards size to their own content, no stretch to the tallest neighbour */
+.work-grid-tight{align-items:start}
+.work-grid-tight figure{height:auto}
 
 @media print{.site-header,.sticky-bar,.cta-band{display:none}body{padding:0}}
