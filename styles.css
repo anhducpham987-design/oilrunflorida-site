@@ -223,9 +223,10 @@ details p{color:var(--muted)}
 .footer-grid{display:grid;gap:24px;grid-template-columns:1fr}
 .footer-logo{border-radius:16px;background:#fff;display:block;margin-bottom:12px}
 .footer-h{font-size:1rem;text-transform:uppercase;letter-spacing:.12em;color:var(--orange);margin-bottom:.6em}
-.footer-grid a{display:inline-block;padding:4px 0}
+.footer-grid a{display:inline-block;padding:6px 0}
 .legal{border-top:1px solid #262b33;margin-top:32px;padding-top:16px;font-size:.9rem;color:var(--muted-dk);display:flex;flex-wrap:wrap;gap:4px 24px;justify-content:space-between}
 .legal p{margin:0}
+.legal a{display:inline-block;padding:6px 0;margin:-6px 0}
 @media (min-width:760px){.footer-grid{grid-template-columns:1.6fr 1fr 1fr 1fr}}
 
 /* Sticky mobile call/text bar */
@@ -263,12 +264,12 @@ body.no-sticky{padding-bottom:0}
 .page-copy h2{font-size:clamp(1.35rem,3.2vw,1.8rem);margin-top:1.4em}
 .page-copy ul{padding-left:1.2em;margin:0 0 1.2em}
 .page-copy li{margin-bottom:.45em}
-.towns a{color:inherit}
+.towns a{color:inherit;display:inline-block;padding:6px 0;margin:-6px 0}
 .card .card-more{margin-top:14px}
 .card-more a{display:inline-block;padding:6px 0;min-height:24px;font-weight:700;color:var(--orange-dk);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:2px}
 .card-more a:hover{color:#111;text-decoration-color:#111}
 .area-links{margin:16px 0 0;font-weight:600;line-height:2}
-.area-links a{display:inline-block;padding:4px 0;color:var(--orange-dk);text-decoration-thickness:2px}
+.area-links a{display:inline-block;padding:6px 0;color:var(--orange-dk);text-decoration-thickness:2px}
 .footer-links{margin-top:12px;line-height:1.9}
 .footer-links strong{color:var(--orange)}
 
@@ -279,8 +280,5 @@ body.no-sticky{padding-bottom:0}
 .warranty-details summary::after{right:8px}
 .warranty-details .warranty{margin-top:8px}
 
-/* Pace work grid: cards size to their own content, no stretch to the tallest neighbour */
-.work-grid-tight{align-items:start}
-.work-grid-tight figure{height:auto}
 
 @media print{.site-header,.sticky-bar,.cta-band{display:none}body{padding:0}}
