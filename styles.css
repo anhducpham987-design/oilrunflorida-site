@@ -168,6 +168,8 @@ main p a:not(.btn){padding-block:6px}
 .review-stars{color:var(--orange-dk);letter-spacing:2px;font-size:1.1rem;margin:0 0 8px}
 .review blockquote{margin:0 0 14px;font-size:1rem}
 .review blockquote p{margin:0 0 .7em}
+.review-photo{display:block;margin:0 0 14px;border-radius:10px;overflow:hidden;background:#15181d}
+.review-photo img{display:block;width:100%;height:auto}
 .review figcaption{display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line);padding-top:12px}
 .review-meta{font-size:.9rem;color:var(--muted)}
 .center-text{text-align:center}
