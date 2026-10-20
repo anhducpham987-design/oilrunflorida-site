@@ -31,6 +31,7 @@ h3{font-size:1.15rem;font-weight:700}
 p{margin:0 0 1em}
 a{color:var(--orange-dk);text-underline-offset:3px}
 a:hover{text-decoration-thickness:2px}
+main p a:not(.btn){padding-block:6px}
 :focus-visible{outline:3px solid #15181d;outline-offset:2px;box-shadow:0 0 0 2px var(--focus);border-radius:4px}
 /* two-tone focus ring: yellow inner + dark outer = visible (>=3:1) on both light and dark backgrounds */
 .site-header :focus-visible,.hero :focus-visible,.section-dark :focus-visible,.site-footer :focus-visible,.sticky-btn:focus-visible{outline-color:var(--focus);box-shadow:0 0 0 2px #15181d}
